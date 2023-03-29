@@ -1,0 +1,107 @@
+.formWrapper {
+  min-width: 320px;
+  width: 100%;
+  max-width: 500px;
+
+  padding: 32px;
+  min-height: 550px;
+
+  background-image: url('https://images.pexels.com/photos/9888656/pexels-photo-9888656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 25px grey;
+
+  display: flex;
+  flex-direction: column;
+
+  color: #fff;
+}
+
+.formTitle {
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.signUpForm {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  min-width: 200px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.formLabel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  width: inherit;
+}
+
+.agreementBox {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.agreementBox > .labelName {
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.labelName {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.formInput {
+  font-size: 16px;
+  padding: 12px;
+  border: 2px solid #fff;
+  border-radius: 16px;
+  outline: none;
+}
+
+.inputValid {
+  border: 2px solid #2eff00;
+}
+
+.inputInvalid {
+  border: 2px solid #ff4300;
+}
+
+.submitBtn {
+  min-width: 150px;
+  width: 100%;
+  max-width: 200px;
+
+  margin: 10px auto;
+  padding: 15px;
+
+  background-color: transparent;
+  border-radius: 25px;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+
+  color: #dcdcdc;
+  font-size: 16px;
+  font-weight: 700;
+
+  cursor: pointer;
+  transition: 0.8s all ease;
+}
+
+.submitBtn:hover {
+  color: #2c2b2b;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.breakLine {
+  margin: 15px 0;
+  width: 100%;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 25px;
+}
